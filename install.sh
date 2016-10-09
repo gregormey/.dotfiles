@@ -15,16 +15,16 @@ git clone https://github.com/jistr/vim-nerdtree-tabs.git
 echo "Create .vimrc"
 cd ~
 git clone https://github.com/gregormey/.dotfiles.git
-ln -s ~/.vimrc ~/.dotfiles/vim/.vimrc
+ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc
 
 echo "Create tmux.conf"
-ln -s ~/.tmux.conf ~/.dotfiles/tmux/.tmux.conf
+ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
 echo "Set color theme"
 cd ~
 git clone https://github.com/hukl/Smyck-Color-Scheme.git
 mkdir -p ~/.vim/colors && \
-ln -s ~/.vim/colors/smyck.vim ~/Smyck-Color-Scheme/smyck.vim
+ln -s ~/Smyck-Color-Scheme/smyck.vim ~/.vim/colors/smyck.vim
 
 echo "Create .tmux.conf"
-ln -s ~/.tmux.conf ~/.dotfiles/tmux/.tmux.conf
+ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
