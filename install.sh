@@ -26,4 +26,5 @@ git clone https://github.com/hukl/Smyck-Color-Scheme.git
 mkdir -p ~/.vim/colors && \
 ln -s ~/.vim/colors/smyck.vim ~/Smyck-Color-Scheme/smyck.vim
 
-
+echo "Create .tmux.conf"
+ln -s ~/.tmux.conf ~/.dotfiles/tmux/.tmux.conf
