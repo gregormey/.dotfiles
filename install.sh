@@ -29,3 +29,6 @@ ln -s ~/Smyck-Color-Scheme/smyck.vim ~/.vim/colors/smyck.vim
 
 echo "Create .tmux.conf"
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+
+echo "Create .gitconfig"
+ln -s ~/.dotfiles/git/git/.gitconfig ~/.gitconfig

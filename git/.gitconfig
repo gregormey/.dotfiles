@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Gregor Meyenberg
+#	email = gregor.meyenberg@nb-gmeyenberg.fritz.box
+[user]
+	name = Gregor
+	email = gregor@meyenberg.de
