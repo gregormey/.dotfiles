@@ -22,5 +22,9 @@ iab cpr
 \<CR>%% ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 \<CR>%% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-iab asa AS A role I WANT TO desire SO THAT rationale.
-iab asan AS AN role I WANT TO desire SO THAT rationale.
+iab asa AS A 
+\<CR>\<TAB>role 
+\<CR>I WANT TO 
+\<CR>\<TAB>desire 
+\<CR>SO THAT
+\<CR>\<TAB>rationale.
