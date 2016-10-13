@@ -23,8 +23,8 @@ iab cpr
 \<CR>%% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 iab asa AS A 
-\<CR>\<TAB>role 
+\<CR><TAB>role 
 \<CR>I WANT TO 
-\<CR>\<TAB>desire 
+\<CR><TAB>desire 
 \<CR>SO THAT
-\<CR>\<TAB>rationale.
+\<CR><TAB>rationale.
