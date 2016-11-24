@@ -32,3 +32,9 @@ ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
 echo "Create .gitconfig"
 ln -s ~/.dotfiles/git/git/.gitconfig ~/.gitconfig
+
+echo "Create .gitignore"
+ln -s ~/.dotfiles/git/git/.gitignore ~/.gitignore
+git config --global core.excludesfile '~/.gitignore'
+
+
