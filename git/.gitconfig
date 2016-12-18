@@ -6,3 +6,8 @@
 [user]
 	name = Gregor
 	email = gregor@meyenberg.de
+[core]
+	excludesfile = ~/.gitignore
+[push]
+	default = current
+
