@@ -12,19 +12,30 @@ git clone https://github.com/jimenezrick/vimerl.git
 git clone https://github.com/vim-erlang/vim-erlang-omnicomplete.git
 git clone https://github.com/jistr/vim-nerdtree-tabs.git
 git clone https://github.com/lambdatoast/elm.vim.git
+git clone https://github.com/pk/vim-userstories.git
 
 echo "Create .vimrc"
 cd ~
 git clone https://github.com/gregormey/.dotfiles.git
-ln -s ~/.vimrc ~/.dotfiles/vim/.vimrc
+ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc
 
 echo "Create tmux.conf"
-ln -s ~/.tmux.conf ~/.dotfiles/tmux/.tmux.conf
+ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
 echo "Set color theme"
 cd ~
 git clone https://github.com/hukl/Smyck-Color-Scheme.git
 mkdir -p ~/.vim/colors && \
-ln -s ~/.vim/colors/smyck.vim ~/Smyck-Color-Scheme/smyck.vim
+ln -s ~/Smyck-Color-Scheme/smyck.vim ~/.vim/colors/smyck.vim
+
+echo "Create .tmux.conf"
+ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+
+echo "Create .gitconfig"
+ln -s ~/.dotfiles/git/git/.gitconfig ~/.gitconfig
+
+echo "Create .gitignore"
+ln -s ~/.dotfiles/git/git/.gitignore ~/.gitignore
+git config --global core.excludesfile '~/.gitignore'
 
 
