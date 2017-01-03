@@ -7,6 +7,9 @@ set number
 au BufNewFile,BufRead *.ejs set filetype=html
 colorscheme smyck
 set mouse=a
+nnoremap <leader>el :ElmEvalLine<CR>
+vnoremap <leader>es :<C-u>ElmEvalSelection<CR>
+nnoremap <leader>em :ElmMakeCurrentFile<CR>
 iab cpr 
 \<CR>%% Copyright (c) 2016, Gregor Meyenberg  <gregor@meyenberg.de>
 \<CR>%%
