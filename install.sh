@@ -13,6 +13,7 @@ git clone https://github.com/vim-erlang/vim-erlang-omnicomplete.git
 git clone https://github.com/jistr/vim-nerdtree-tabs.git
 git clone https://github.com/lambdatoast/elm.vim.git
 git clone https://github.com/pk/vim-userstories.git
+git clone https://github.com/vim-scripts/postmail.vim.git
 
 echo "Create .vimrc"
 cd ~
